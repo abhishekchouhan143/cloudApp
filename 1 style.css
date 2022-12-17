@@ -1,0 +1,27 @@
+.progressbar{
+  height: 3px;
+  background-color: red;
+  margin:2px 0px;
+  animation-name:load;
+  animation-duration: 3s;
+}
+@keyframes load {
+  0%{
+    width: 0%;
+  }
+  50%{
+    width: 50%;
+  }
+  100%{
+    width: 100%;
+  }
+  
+}
+
+
+.height {
+  height: 300px;
+  line-height: 60px;
+  font-size: 21px;
+  font-weight:550;
+}
